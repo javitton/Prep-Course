@@ -74,7 +74,7 @@ function filter(array) {
   return nuevoArray;*/
 
 return array.filter((i) =>{
-  return i.charAt(0) === 'a';
+  return i.charAt(0) === 'a'; 
 })
 }
 
