@@ -7,9 +7,9 @@ function crearGato (nombre, edad) {
   // Devuelve el objeto
   // Tu código:
   let gato = {
-    "nombre" : nombre,
-    "edad": edad,
-    "meow": function() {
+    nombre : nombre,
+    edad: edad,
+    meow: function() {
       return "Meow!";
     }
   }
